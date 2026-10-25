@@ -38,17 +38,19 @@ English: A skill that turns a one-line image idea into a production-ready prompt
 
 技能遵循通用的 `SKILL.md` 目录约定，克隆到 Agent 的技能目录即可。
 
+主仓库托管在 [Gitee](https://gitee.com/zhang-wei678/image-prompt-architect)（国内可直接访问），GitHub 镜像稍后同步。
+
 **CodeBuddy**
 
 ```bash
-git clone https://github.com/<your-name>/image-prompt-architect.git \
+git clone https://gitee.com/zhang-wei678/image-prompt-architect.git \
   ~/.codebuddy/skills/image-prompt-architect
 ```
 
 **Claude Code 等**
 
 ```bash
-git clone https://github.com/<your-name>/image-prompt-architect.git \
+git clone https://gitee.com/zhang-wei678/image-prompt-architect.git \
   ~/.claude/skills/image-prompt-architect
 ```
 
