@@ -1,0 +1,8 @@
+*.zip
+.DS_Store
+Thumbs.db
+
+# 授权码与生成产物，禁止入库
+.pic-1dream-auth
+image/
+output/
