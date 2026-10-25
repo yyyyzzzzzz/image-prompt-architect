@@ -3,7 +3,7 @@
 > 把一句「我想要一张……」变成可直接投产的视觉制作简报：主体、构图、光线、材质、版式、文字、比例、负面约束一次写清。
 
 一个面向 AI 生图（文生图 / 图生图）的 **Agent Skill / 提示词工程知识库**。
-给编码助手（CodeBuddy、Claude Code 等支持 `SKILL.md` 的 Agent）装上它，一句话需求就能稳定输出专业级 prompt，而不是「一个赛博朋克风格的猫，高清，8K」这类堆词。
+给编码助手（Claude Code 等支持 `SKILL.md` 的 Agent）装上它，一句话需求就能稳定输出专业级 prompt，而不是「一个赛博朋克风格的猫，高清，8K」这类堆词。
 
 English: A skill that turns a one-line image idea into a production-ready prompt brief — subject, composition, lighting, material, typography, aspect ratio and negative constraints — with type-specific recipes, a phrase bank, and a curated prompt library analysis.
 
@@ -40,13 +40,6 @@ English: A skill that turns a one-line image idea into a production-ready prompt
 
 主仓库托管在 [Gitee](https://gitee.com/zhang-wei678/image-prompt-architect)（国内可直接访问），GitHub 镜像稍后同步。
 
-**CodeBuddy**
-
-```bash
-git clone https://gitee.com/zhang-wei678/image-prompt-architect.git \
-  ~/.codebuddy/skills/image-prompt-architect
-```
-
 **Claude Code 等**
 
 ```bash
@@ -54,7 +47,7 @@ git clone https://gitee.com/zhang-wei678/image-prompt-architect.git \
   ~/.claude/skills/image-prompt-architect
 ```
 
-Windows 下把目标路径换成 `C:\Users\<用户名>\.codebuddy\skills\image-prompt-architect`。
+Windows 下把目标路径换成 `C:\Users\<用户名>\.claude\skills\image-prompt-architect`。
 安装后重启会话，技能列表中出现 `image-prompt-architect` 即生效。
 
 ## 使用
