@@ -1,5 +1,7 @@
 # image-prompt-architect · 生图提示词架构师
 
+**中文** | [English](README.en.md)
+
 > 把一句「我想要一张……」变成可直接投产的视觉制作简报：主体、构图、光线、材质、版式、文字、比例、负面约束一次写清。
 
 一个面向 AI 生图（文生图 / 图生图）的 **Agent Skill / 提示词工程知识库**，遵循通用 `SKILL.md` 目录约定，装进 Claude Code 等支持技能的编码助手即可使用。
@@ -163,3 +165,7 @@ Windows 下把目标路径换成 `C:\Users\<用户名>\.claude\skills\image-prom
 ## License
 
 [MIT](./LICENSE)
+
+---
+
+如果这套配方帮你少改了几轮图，点个 **Star** 让更多人看到 —— 这是对它最实在的支持。
